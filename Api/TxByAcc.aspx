@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TxByAcc.aspx.cs" Inherits="RtgsWeb.Api.TxByAcc" %>

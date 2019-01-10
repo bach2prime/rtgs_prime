@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="OutwardApi.aspx.cs" Inherits="RtgsWeb.Outward.OutwardApi" %>
