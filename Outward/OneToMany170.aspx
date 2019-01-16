@@ -107,10 +107,12 @@
                         </tr>
                          <tr class="oddRow">
                             <td>
-                                Sender Email &nbsp;&nbsp;
-                                <asp:Label ID="lbSenderEmail" runat="server" Text="" />
+                                Sender Mobile Number &nbsp;&nbsp;
+                                <asp:Label ID="lbSenderMobNum" runat="server" Text="" />
                             </td>
                              <td>
+                                 Sender Email &nbsp;&nbsp;
+                                <asp:Label ID="lbSenderEmail" runat="server" Text="" />
                             </td>
                         </tr>
                     </table>
