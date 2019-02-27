@@ -88,10 +88,10 @@
             AutoPostBack="true" OnCheckedChanged="RadioButton_CheckedChanged" />        
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <b>Selected Items: </b>
-        <%--<asp:Button runat="server" ID="btnCheckAll" OnClientClick="return window.confirm('The Item will be ready for sending. Are you sure?');"
-            OnClick="CheckSelected" Text="Checked" CssClass="btn_blue" />&nbsp;&nbsp;--%>
+        <asp:Button runat="server" ID="btnCheckAll" OnClientClick="return window.confirm('The Item will be ready for sending. Are you sure?');"
+            OnClick="btnCheckAll_OnClick" Text="Checked" CssClass="btn_green" />&nbsp;&nbsp;
         <asp:Button runat="server" ID="btnRemakeAll" OnClientClick="return window.confirm('Are you sure to send the item to maker?');"
             OnClick="RemakeSelected" Text="Remake" CssClass="btn_red" />
-        <asp:Button runat="server" ID="btnExcel" OnClick="GetExcel" Text="Excel" CssClass="btn_green" />
+        <%--<asp:Button runat="server" ID="btnExcel" OnClick="GetExcel" Text="Excel" CssClass="btn_green" />--%>
     </div>
 </asp:Content>
