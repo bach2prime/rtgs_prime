@@ -18,10 +18,17 @@
             cellpadding="3">
             <tr>
                 <td colspan="2">
+                    <h4 style="color:red">
+                       <asp:Label runat="server" Visible="false" ID="lbMessage"></asp:Label></h4>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
                     <h4>
                         <b>Change Password</b></h4>
                 </td>
             </tr>
+            
             <tr>
                 <td style="width: 150px; padding-left: 10px;">
                     User Name
