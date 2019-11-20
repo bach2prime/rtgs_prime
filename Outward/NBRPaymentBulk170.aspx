@@ -49,7 +49,7 @@
                     &nbsp;
                     <asp:Button ID="btValidateXlsFile" runat="server" Text="Validate File" CssClass="buttonStyle"
                         OnClick="btnValidateXlsFile_Click" OnClientClick="loading()" />
-                    <span style="width: 120px; margin-left: 75px"><a href="../media/SampleExcel170.xls">Sample Excel</a> </span>
+                    <span style="width: 120px; margin-left: 75px"><a href="../media/SampleExcelBulk170.xls">Sample Excel</a> </span>
                 </fieldset>
             </td>
         </tr>
@@ -146,6 +146,8 @@
                             <asp:BoundField DataField="ReceiverEmail" HeaderText="Receiver Email" />
                             <asp:BoundField DataField="StatusStr" HeaderText="Status" />
                             <asp:BoundField DataField="Purpose" HeaderText="Purpose" />
+                            <asp:BoundField DataField="RemitInfo" HeaderText="Details" />
+                            
                             <asp:BoundField DataField="ErrorMessage" HeaderText="Error Message" />
                         </Columns>
                         <FooterStyle BackColor="#6FA7D1" Font-Bold="True" ForeColor="White" />
