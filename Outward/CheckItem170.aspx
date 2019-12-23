@@ -70,6 +70,7 @@
                         ItemStyle-Wrap="False" />
                     <asp:BoundField DataField="Purpose" HeaderText="Purpose" />
                     <asp:BoundField DataField="StatusStr" HeaderText="Status" />
+                    <asp:BoundField DataField="RemitInfo" HeaderText="Details" />
                 </Columns>
                 <FooterStyle BackColor="#6FA7D1" Font-Bold="True" ForeColor="White" />
                 <PagerStyle BackColor="#C0C0C0" Height="15px" ForeColor="White" />
