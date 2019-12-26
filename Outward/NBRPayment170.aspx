@@ -118,7 +118,7 @@
                                     <asp:TextBox ID="tbSenderName" Width="380px" runat="server" CssClass="textBox" MaxLength="0"></asp:TextBox>
                                     Mobile No                                     
                                     <%--<asp:Label runat="server" ID="lbMobileNo"></asp:Label>--%>
-                                    <asp:TextBox ID="tbMobileNo" Width="130px" Enabled="True" runat="server" CssClass="textBox" MaxLength="11"></asp:TextBox>
+                                    <asp:TextBox ID="tbMobileNo" Width="130px" ReadOnly="true" runat="server" CssClass="textBox" MaxLength="11"></asp:TextBox>
                                 </td>
                             </tr>
                         </asp:Panel>
@@ -289,7 +289,7 @@
                 <td colspan="1">Mobile Number (max 11 digits)
                 </td>
                 <td>
-                    <asp:TextBox ID="tb_CustomerMobileNumber" ReadOnly="True" Width="220px" runat="server" MaxLength="11" CssClass="textBox"></asp:TextBox>
+                    <asp:TextBox ID="tb_CustomerMobileNumber" Width="220px" runat="server" MaxLength="11" CssClass="textBox"></asp:TextBox>
                      <asp:RegularExpressionValidator  ControlToValidate = "tb_CustomerMobileNumber" 
                         ID="RegularExpressionValidator5" ValidationExpression = "^[\s\S]{1,11}$" runat="server" 
                         ErrorMessage="11 characters" ValidationGroup="vgAdditionalInfo"></asp:RegularExpressionValidator>
