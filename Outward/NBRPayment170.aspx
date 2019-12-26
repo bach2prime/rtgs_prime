@@ -116,9 +116,9 @@
                                 </td>
                                 <td>
                                     <asp:TextBox ID="tbSenderName" Width="380px" runat="server" CssClass="textBox" MaxLength="0"></asp:TextBox>
-                                    Mobile No 
-                                    <asp:Label runat="server" ID="lbMobileNo"></asp:Label>
-                                    <%--<asp:TextBox ID="tbMobileNo" Width="130px" Enabled="False" runat="server" CssClass="textBox" MaxLength="13"></asp:TextBox>--%>
+                                    Mobile No                                     
+                                    <%--<asp:Label runat="server" ID="lbMobileNo"></asp:Label>--%>
+                                    <asp:TextBox ID="tbMobileNo" Width="130px" Enabled="True" runat="server" CssClass="textBox" MaxLength="11"></asp:TextBox>
                                 </td>
                             </tr>
                         </asp:Panel>
